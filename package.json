@@ -1,0 +1,29 @@
+{
+  "name": "demo",
+  "dependencies": {
+    "p5": "git://github.com/bigmstone/p5.js.git#881bf98ac3aa086da6669a2a4c73d83923996918"
+  },
+  "scripts": {
+    "build": "webpack --mode production --config webpack.config.js",
+    "start": "webpack --config ./webpack.config.js && webpack-dev-server --mode development --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@webpack-cli/init": "^0.1.2",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.2",
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
